@@ -1,0 +1,26 @@
+I googled Github Tutorial and this nice little tutorial
+from Hubspot came up.
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+This Hubspot tutorial asks me to use CLI git commands.
+I was able to execute almost all of them except
+git push -u origin master.
+
+I kept failing on autentication even after I created 2
+new personal access tokens, copied them, and update my
+key chain.  I also tried to past the token into the
+password prompt in the terminal.  I suspect this is what's
+failing.  I just don't know how to use terminal on Mac.
+That said, there is no help terminal help topic to educate me.
+
+Meanwhile, GitHub keeps prompting me to use their git CLI app.
+I tried to install it
+brew install gh
+
+The brew install failed because of permissions on /usr/local/bin
+I tried to chown the permissions, but that failed too.  I suspect
+Cisco wants my root directories locked down.
+
+My workaround was just to use GitHub Desktop for push, branch,
+commit, and merge commands.  That seemed to work fine.
+
+Time to move on and clone the SONiC repo.  Let's go baby!
